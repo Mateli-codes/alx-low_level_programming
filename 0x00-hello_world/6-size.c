@@ -8,13 +8,15 @@
 
 int main(void)
 {
-int integerType;
-float floatType;
-char charType;
-double doubleType;
-printf("size of int: %lu bytes\n", (unsigned long)sizeof(integerType));
-printf("size of float: %lu bytes\n", (unsigned long)sizeof(floatType));
-printf("size of char: %lu bytes\n", (unsigned long)sizeof(charType));
-printf("size of double: %lu bytes\n", (unsigned long)sizeof(doubleType));
+char a;
+int b;
+long int c;
+long long int d;
+float f;
+printf("size of char: %lu bytes\n", (unsigned long)sizeof(a));
+printf("size of int: %lu bytes\n", (unsigned long)sizeof(b));
+printf("size of long int: %lu bytes\n", (unsigned long)sizeof(c));
+printf("size of long long int: %lu bytes\n", (unsigned long)sizeof(d));
+printf("size of float: %lu bytes\n", (unsigned long)sizeof(f));
 return (0);
 }
