@@ -12,9 +12,9 @@ int integerType;
 float floatType;
 char charType;
 double doubleType;
-printf("size of int: %ld bytes\n", sizeof(integerType));
-printf("size of float: %ld bytes\n", sizeof(floatType));
-printf("size of char: %ld bytes\n", sizeof(charType));
-printf("size of double: %ld bytes\n", sizeof(doubleType));
+printf("size of int: %lu bytes\n", (unsigned long)sizeof(integerType));
+printf("size of float: %lu bytes\n", (unsigned long)sizeof(floatType));
+printf("size of char: %lu bytes\n", (unsigned long)sizeof(charType));
+printf("size of double: %lu bytes\n", (unsigned long)sizeof(doubleType));
 return (0);
 }
