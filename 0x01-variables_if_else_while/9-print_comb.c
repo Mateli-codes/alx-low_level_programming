@@ -6,19 +6,12 @@
  */
 int main(void)
 {
-char c;
-int d;
-c = 'a';
-d = 0;
-while (d < 10)
+int a;
+for (a = 0; a < 100; a++)
 {
-putchar(d + '0');
-d++;
-}
-while (c <= 'f')
-{
-putchar(c);
-c++;
+putchar(a + '0');
+putchar(',');
+putchar(' ');
 }
 putchar('\n');
 return (0);
