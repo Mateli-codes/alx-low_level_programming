@@ -2,7 +2,7 @@
 /**
  * main - Entry Point
  *
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -15,7 +15,7 @@ if (ones < tens)
 {
 putchar(ones);
 putchar(tens);
-if (ones != 8)
+if (ones != '8')
 {
 putchar(',');
 putchar(' ');
