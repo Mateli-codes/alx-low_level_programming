@@ -23,6 +23,5 @@ else
 {
 largest = c;
 }
-largest = largest_number();
 return (largest);
 }
